@@ -9,6 +9,10 @@
 
 .icon-work:before { content: "\eac9"; }
 .icon-project:before { content: "\eaf4"; }
+
+/*tgcÌí¼Ó*/
+.icon-wish:before { content: "\2764"; }
+
 .icon-phone:before { content: "\ec7a"; }
 .icon-stars:before { content: "\ed32"; }
 .icon-star:before { content: "\ed1d"; }
