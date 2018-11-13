@@ -94,6 +94,7 @@ hr {
 
 .info-unit {
     color: #666;
+    margin-top: 15px;
     margin-bottom: 20px;
 }
 
@@ -172,6 +173,7 @@ progress::-moz-progress-value {
 
 .me {
     text-align: center;
+    margin-top: 35px;
     margin-bottom: 20px;
 }
 

@@ -13,6 +13,9 @@ if (!String.prototype.format) {
 
 
 jQuery(document).ready(function($) {
+	
+	//移除删除、编辑功能
+    /*
     $(".left-label").attr('contenteditable', 'true');
     $(".label-value").attr('contenteditable', 'true');
     $(".info-title").attr('contenteditable', 'true');
@@ -21,6 +24,7 @@ jQuery(document).ready(function($) {
     $(".right-paragraph p").attr('contenteditable', 'true');
     $("#username").attr('contenteditable', 'true');
     $("#persona-tag").attr('contenteditable', 'true');
+    
     $(".info-unit ul li").append('<span class="item-remove"><i class="iconfont icon-delete"></i></span>');
     
     $(".info-unit").filter(function(index) {
@@ -46,22 +50,22 @@ jQuery(document).ready(function($) {
     });
 
     $('.info-header').hover(function() {
-        /* Stuff to do when the mouse enters the element */
+         Stuff to do when the mouse enters the element 
         $(this).children('.unit-remove').css('visibility', 'visible');
         $(this).children('.item-add').css('visibility', 'visible');
 
     }, function() {
-        /* Stuff to do when the mouse leaves the element */
+         Stuff to do when the mouse leaves the element 
         $(this).children('.unit-remove').css('visibility', 'hidden');
         $(this).children('.item-add').css('visibility', 'hidden');
     });
 
     $('.info-unit ul li').hover(function() {
-        /* Stuff to do when the mouse enters the element */
+         Stuff to do when the mouse enters the element 
         $(this).children('.item-remove').css('visibility', 'visible');
 
     }, function() {
-        /* Stuff to do when the mouse leaves the element */
+         Stuff to do when the mouse leaves the element 
         $(this).children('.item-remove').css('visibility', 'hidden');
     });
 
@@ -85,6 +89,9 @@ jQuery(document).ready(function($) {
     $("progress").click(function(event) {
         $(this).attr("value", event.offsetX/$(this).width()/0.8 * $(this).attr("max"));
     });
+    */
+	
+	
     // $("*").removeAttr('contenteditable');
 
 });

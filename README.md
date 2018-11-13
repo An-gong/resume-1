@@ -1,7 +1,10 @@
 # https://yeqizhang.github.io/resume
 
+  在static/js/script.js 中注释移除了删除、编辑功能。
+
 fork 自@xzy256
 
+### 以下为原仓库的说明
 <pre>
 @author: xuezhiyou
 @time:2017.7.7
